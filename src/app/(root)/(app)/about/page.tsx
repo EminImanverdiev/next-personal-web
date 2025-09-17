@@ -27,17 +27,16 @@ export default function AboutPage() {
           <Image src={dedeard} alt="Foto Emin Imanverdiev" className="block w-full" placeholder="blur" />
         </div>
         <div className="md:flex-1 md:pl-6">
-          <h2 className="mb-2 text-xl font-bold">I’m Emin Imanverdiev</h2>
+          <h2 className="mb-2 text-xl font-bold">Hey, I’m Emin 👋</h2>
           <div className="mb-6">
             <p className="mb-1">
-              Full Stack Web Developer based in Makassar, Indonesia. <br />I try my best to make the code I write easy to read and
-              understand.
+I’m a Full Stack Developer who loves turning ideas into working software. <br /> I focus on making my code simple, readable, and easy to maintain.  For me, <br /> every project is not just about coding but also <br /> about creating value and improving user experience.
             </p>
           </div>
 
           <h2 className="mb-2 text-xl font-bold">Tech i love</h2>
           <div className="mb-6">
-            <p className="mb-1">C# , .Net, Js, SQL, Bootstrap, and React.</p>
+            <p className="mb-1">C#, .NET, JavaScript, React, SQL, Docker, Redis, and more..</p>
           </div>
           <a
             download

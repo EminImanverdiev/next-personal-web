@@ -26,7 +26,7 @@ export const SOCIALS = {
   WA: 'https://api.whatsapp.com/send?phone=994515888968&text=Salam!%20M%C9%99lumat%20almaq%20ist%C9%99yir%C9%99m.',
 }
 
-export const RESUME_URL = 'https://drive.google.com/file/d/1ytO7InWLVjJGryqRC0QZdc60bU1iesph/view?usp=sharing'
+export const RESUME_URL = 'https://drive.google.com/file/d/1L_Bb6kBzD6SQdFNlU9BJy3JALUCt3fw3/view?usp=sharing'
 
 export const FORMSPREE_KEY = 'xoqyaqqe'
 
