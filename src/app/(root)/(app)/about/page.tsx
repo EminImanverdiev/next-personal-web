@@ -26,30 +26,33 @@ export default function AboutPage() {
         <div className="mb-5 md:w-56">
           <Image src={dedeard} alt="Foto Emin Imanverdiev" className="block w-full" placeholder="blur" />
         </div>
+
         <div className="md:flex-1 md:pl-6">
           <h2 className="mb-2 text-xl font-bold">Hey, I’m Emin 👋</h2>
-          <div className="mb-6">
-            <p className="mb-1">
-I’m a Full Stack Developer who loves turning ideas into working software. <br /> I focus on making my code simple, readable, and easy to maintain.  For me, <br /> every project is not just about coding but also <br /> about creating value and improving user experience.
-            </p>
+
+          <div className="mb-6 space-y-3">
+            <p>I’m a Full Stack Developer who loves turning ideas into working software.</p>
+            <p>I focus on making my code simple, readable, and easy to maintain.</p>
+            <p>For me, every project is not just about coding but also about creating value and improving user experience.</p>
           </div>
 
-          <h2 className="mb-2 text-xl font-bold">Tech i love</h2>
+          <h2 className="mb-2 text-xl font-bold">Tech I love</h2>
           <div className="mb-6">
             <p className="mb-1">C#, .NET, JavaScript, React, SQL, Docker, Redis, and more..</p>
           </div>
+
           <a
             download
             target="_blank"
-            rel="nofollow"
+            rel="noopener noreferrer nofollow"
             href={RESUME_URL}
             className="mr-3 inline-block bg-white px-5 py-3 hover:bg-black hover:text-white dark:bg-black dark:hover:bg-white dark:hover:text-black"
           >
             Resume
           </a>
+
           <Link
             href="/contact"
-            rel="nofollow"
             className="inline-block bg-white px-5 py-3 hover:bg-black hover:text-white dark:bg-black dark:hover:bg-white dark:hover:text-black"
           >
             Contact me
