@@ -15,7 +15,6 @@ export const PAGE_TITLES = {
   '/': '._',
   '/about': 'About',
   '/blog': 'Blog',
-  '/projects': 'Projects',
   '/contact': 'Contact',
 }
 

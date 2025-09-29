@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     url: '/projects',
   },
   alternates: {
-    canonical: '/projects',
+    canonical: '/contact',
   },
 }
 
